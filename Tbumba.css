@@ -1,0 +1,85 @@
+body {
+  background-color:#fff;
+  font-family: 'Nixie One', cursive;
+  margin:0;
+  padding:0;
+}
+#heading {
+  text-align:center;
+  background-color:#444;
+  color:#fff;
+  padding:1em;
+  font-weight:800;
+}
+
+.green {
+  color:#42f48c;
+}
+.red {color:#f95e5e;}
+
+.gold {
+  color:#f7f576;
+}
+.dotcom {
+  font-size:60%;
+}
+
+section {
+  text-align:center;
+}
+
+
+input {
+  display:block;
+  margin:2em auto;
+  text-align:center;
+  border-top:none;
+  border-right:none;
+  border-bottom:none;
+  border-left:#f95e5e 0.1em solid;
+  border-radius:;
+  outline:none;
+}
+
+.btn {
+  width:25%;
+  border:none;
+  font-family: 'Nixie One', cursive;
+  font-weight:800;
+  border-radius:5px;
+  opacity:0.8;
+  outline:none;
+}
+
+#loginBtn {
+  background-color:#42f48c;
+}
+
+#signupBtn {
+  background-color:#f7f576;
+}
+
+.btn:hover {
+  opacity:1;
+  box-shadow: 2px 2px 9px lightgrey;
+}
+
+.fa {
+  color:#f95e5e;
+  font-size:80%;
+}
+a {
+  text-decoration:none;
+  font-weight:800;
+  font-size:80%;
+}
+
+#forgotten {
+  margin-top:1em;
+}
+
+a:hover {
+  text-decoration:none;
+  cursor:help;
+}
+
